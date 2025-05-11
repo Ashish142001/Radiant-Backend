@@ -16,14 +16,14 @@ This project implements a secure, scalable user authentication and session manag
 
 ## Set Environment Variables Create a .env file in root:
 
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/auth_demo
-REDIS_HOST=127.0.0.1
-REDIS_PORT=6379
-SESSION_SECRET=yourSecret
-EMAIL_USER=your@email.com
-EMAIL_PASS=yourpassword
-BASE_URL=http://localhost:5000
+- PORT=5000
+- MONGO_URI=mongodb://localhost:27017/auth_demo
+- REDIS_HOST=127.0.0.1
+- REDIS_PORT=6379
+- SESSION_SECRET=yourSecret
+- EMAIL_USER=your@email.com
+- EMAIL_PASS=yourpassword
+- BASE_URL=http://localhost:5000
 
 
 ## Run App
